@@ -1,0 +1,948 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Epilogue', sans-serif;
+
+    
+    
+   
+
+}
+
+
+.over{
+    width: 100%;
+    overflow: hidden;
+}
+nav{
+    position:sticky;
+    top: 0;
+    z-index: 1;
+}
+    
+
+
+.topnav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(247, 247, 247);
+    overflow: hidden;
+    
+   
+
+
+
+
+
+}
+
+.box p img {
+
+    border-radius: 100px;
+    padding: 5px;
+    box-shadow: 2px 2px 2px grey
+}
+
+.box {
+    display: flex;
+    padding-left: 3vw;
+    padding-top: 1.5vh;
+
+
+
+
+}
+
+
+
+.logo img {
+    padding-bottom: 2vh;
+
+
+
+}
+
+.second-nav {
+    display: flex;
+    background-color: rgb(247, 247, 247);
+    padding-top: 1vh;
+    padding-left: 2.3vw;
+
+
+}
+
+
+.drop-down {
+    display: flex;
+    width: 20vw;
+    height: 7vh;
+    border: 2px solid black;
+    background-color: white;
+    overflow-y: scroll;
+    padding-left: 3vw;
+    margin-left: 2vw;
+    border-radius: 5px;
+
+
+}
+
+
+#search {
+    width: 50vw;
+    margin-left: 1vw;
+    height: 7vh;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: white;
+    padding-left: 1vw;
+    font-size: 20px;
+
+}
+
+.login {
+    margin-top: 1vw;
+    margin-left: 1.5vw;
+}
+
+.login a {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+
+
+}
+
+.login a:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.sell>button {
+    padding: 5px 20px;
+    margin-left: 2vw;
+    border-radius: 40px;
+    font-size: 1vmax;
+    font-weight: bold;
+    border-bottom: 6px solid orange;
+    border-top: 6px solid lightskyblue;
+    border-left: 6px solid blue;
+    border-right: 6px solid lightskyblue;
+    background-color: white;
+    display: flex;
+
+}
+
+button img {
+    width: 1vw;
+    margin-bottom: 3px;
+}
+
+.navbar-two {
+    display: flex;
+    padding: 15px 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+
+}
+.product-listing ul {
+    list-style: none;
+}
+.modal-body{
+    display: flex;
+    justify-content: space-evenly;
+}
+.product-listing ul li a{
+    color:grey;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.product-listing ul li a:hover{
+color: black;
+}
+
+.btn{
+    --bs-btn-padding-y: -0.625rem   
+}
+.product-listing{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.modal{
+    --bs-modal-width: 90vw;
+}
+
+.item a {
+    margin: 10px;
+    padding: 10px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item a:hover {
+    color: aqua;
+    cursor: pointer;
+}
+
+.ad {
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-image {
+    width: 90vw;
+    height: 30vh;
+    background-image: url('https://images.olx.com.pk/thumbnails/295176473-800x600.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    
+
+
+}
+
+@keyframes musab {
+    to {
+        transform: translateX(0);
+    }
+
+    from {
+        transform: translateX(-100%);
+    }
+}
+
+.main-image {
+    animation: musab 0.2s ease-in 2s 1 normal;
+}
+
+.items-have {
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.items-categories{
+    margin: 0 15px;
+}
+.text-categories{
+    padding: 0 30px;
+    font-size: 10px;
+}
+.boxes{
+    padding: 0 20px;
+}
+
+
+.dbbe {
+    width: 106px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.dbbe:hover{
+    cursor: pointer;
+}
+
+.dbbe-img {
+    background-image: url('https://www.olx.com.pk/assets/mobiles.8c768c96bfde33f18fcf5af2a8b9cf71.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+
+.dbbe-img-2 {
+    background-image: url('https://www.olx.com.pk/assets/vehicles.29fb808d5118f0db56f68a39ce5392e2.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+
+.dbbe-img-3 {
+    background-image: url('https://www.olx.com.pk/assets/property-for-sale.e3a00dbfdaa69fe5f713665f1069502f.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+
+.dbbe-img-4 {
+    background-image: url('https://www.olx.com.pk/assets/property-for-rent.8436595fbaa90d47f0178006f57090a8.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+
+.dbbe-img-5 {
+    background-image: url('https://www.olx.com.pk/assets/bikes.4dcd02c49b2b83aa5b4d629d1e2b383e.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+
+.dbbe-img-6 {
+    background-image: url('https://www.olx.com.pk/assets/business-industrial-agriculture.704a6ffb9081bc94b11c102cc613670f.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+
+.dbbe-img-7 {
+    background-image: url('https://www.olx.com.pk/assets/services.dc6aef196c0403dc61b0ee813f66fa5b.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.dbbe-img-8 {
+    background-image: url('https://www.olx.com.pk/assets/jobs.79e6136dda02111cf8e7afe26b9e0f93.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.dbbe-img-9 {
+    background-image: url('https://www.olx.com.pk/assets/furniture-home-decor.66bcf157a53ea4c736a5b0af41219475.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.dbbe-img-10 {
+    background-image: url('https://www.olx.com.pk/assets/fashion-beauty.dd2cf7638c29b0e5c084a6673dd94dd7.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.dbbe-img-11 {
+    background-image: url('https://www.olx.com.pk/assets/books-sports-hobbies.6fee8d841b332d65a10f050f4a2ee1c8.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.dbbe-img-12 {
+    background-image: url('https://www.olx.com.pk/assets/animals.62d396e85f7523dbc8ff23889fdd5c31.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.dbbe-img-13 {
+    background-image: url('https://www.olx.com.pk/assets/electronics-home-appliances.46e034dd8adca44625c2c70e4d1b5984.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.dbbe-img-14 {
+    background-image: url('https://www.olx.com.pk/assets/kids.cd8d8864804f1c35dd6a7df68268a48d.png');
+    background-size: cover;
+    width: 88px;
+    height: 88px
+}
+.listing-cards{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    
+  
+    
+}
+.olx-card{
+    height:312px;
+    width: 21.96vw;
+    border: 1px solid rgb(221, 217, 217);
+    border-radius: 5px;
+    display:flex;
+    flex-direction:column;
+    margin: 10px;
+    
+    
+    
+}
+.olx-card .img-cars{
+    height: 156px;
+    width: 21.90vw ;
+}
+.img-cars{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.pese{
+    font-weight:800 ;
+}
+.title-car{
+    font-weight: 540;
+}
+.location{
+    font-size: 13px;
+    color: rgb(167, 158, 158);
+}
+
+.category{
+    padding-left: 24px;
+    margin-top: 4vh;
+}
+.listing-cards a{
+    text-decoration: none;
+    color: black;
+}
+.olx-app-ad{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: #f5f5f5;
+    margin-top: 20vh;
+    border-bottom: 1px solid grey;
+
+}
+.olx-app-pic{
+    height: 198px;
+    width: 435px;
+    background-image: url('https://www.olx.com.pk/assets/olxMobileApp.4f5c782de5b951f7b49a8d2729313206.jpg');
+    
+}
+.olxapp-text{
+    height: 198px;
+    width: 435px;
+    padding: 50px 30px;
+    
+}
+.olxapp-text>p{
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.olx-app-icons{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    height: 198px;
+    width: 435px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.icon-images-second{
+    display: none;
+}
+.footer-olx{
+    width: 100%;
+    background-color:#ebeeef
+    ;
+    /* height: 194px; */
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.links-olx{
+    width: 18.52vw;
+    /* height: 17.35vh; */
+
+}
+.links-olx ul {
+    list-style: none;
+    line-height:18px ;
+}
+.links-olx ul li a{
+    text-decoration: none;
+    color: grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    
+
+}
+.links-olx ul li a:hover{
+    color: black;
+}
+#heading-link{
+font-size: 15px;
+padding: 20px 0;
+}
+.links-olx-icon{
+    width: 19.61vw;
+    height:17.35vh ;
+    margin: 20px 0;
+}
+.links-olx-icon div p{
+    font-size: 15px;
+}
+.links-olx-icon div{
+    line-height: 9px;
+}
+.icons-images-small{
+    margin-top: 35px;
+}
+.icons-images-small-part-two{
+    display: none;
+}
+.last-footer-olx{
+    background-color: #002f34;
+    width: 100%;
+    height: 50.6px;
+    
+}
+.last-footer-olx p{
+    float: right;
+    margin-top:11px;
+    color: white;
+    font-weight: lighter;
+
+}
+/* ads page  */
+.nav-three ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    margin-left: 10px;
+
+    
+}
+
+.nav-three ul li a{
+    font-size:12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.nav-three ul li a:hover{
+    color: black;
+}
+.carousel-inner{
+  
+    
+    
+    
+    background-color: black;
+    background-position: center;
+    
+}
+.container{
+    border: 1px solid black;
+}
+.carousel-item{
+    background-color: black;
+    width: 58.352vw;
+    height:50.17vh ;
+   
+}
+.carousel-item img{
+    height:100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.pictures-ads-info{
+    width:100%;
+    display: flex;
+   margin: 10px;
+    justify-content: space-evenly;
+
+
+}
+.dropdown-item{
+    font-size: 12px;
+}
+.list-group-item{
+    text-align: center;
+}
+.list-group{
+    display: none;
+}
+.btn-secondary{
+--bs-btn-color: none;
+    --bs-btn-bg:none;
+    --bs-btn-border-color:none;
+    --bs-btn-hover-color: none;
+}
+.btn-outline-dark{
+    display: none;
+}
+
+.pricess{
+    border: 1px solid rgb(196, 190, 190);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    padding: 1vw
+}
+.pricess h1 span{
+    padding-left: 40vw;
+}
+.location-heart{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.brand-discuss{
+    border: 1px solid  rgb(196, 190, 190);
+    padding: 1vw;
+    padding-bottom: 0;
+}
+.discription-ad{
+    border: 1px solid rgb(196, 190, 190) ;
+    margin: 2vw 0;
+    padding: 1vw;
+    padding-bottom: 0;
+
+}
+
+.card-of-seller{
+    width: 360px;
+    border: 1px solid rgb(196, 190, 190) ;
+    padding: 20px;
+    border-radius: 5px;
+
+}
+.seller-image{
+    display: flex;
+    
+    
+    
+}
+.seller-image span 
+{
+    line-height: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5px;
+}
+.seller-image span p
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.seller-image  img{
+border-radius: 100px;
+
+}
+
+
+
+
+@media only screen and (max-width:1199px)
+{
+    .olxapp-text>p{
+        font-size: 18px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .olxapp-text>h1{
+        font-size: 25px;
+    }
+    .chat-button{
+        width: 310px;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width:990px)
+{
+    .carousel-item {
+        background-color: black;
+        width: 53.352vw;
+        height: 41.17vh;
+    }
+    .olxapp-text{
+        display: none;
+    }
+    #search{
+        width: 45vw;
+    }
+    .icons-images-small {
+        margin-top: 19px;
+    }
+    .pricess-text h1{
+        font-size: 19px;
+    }
+    .pricess-text h3{
+        font-size: 16px;
+    }
+    .brand-discuss h1{
+         font-size: 19px;
+    }
+    .discription-ad h1{
+        font-size: 19px;
+    }
+   
+    
+    
+    
+}
+@media only screen and (max-width:780px)
+{
+    .olx-app-pic , .olx-app-icons{
+        width: 325px;
+        height: 148px;
+    }
+    .olx-app-pic{
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+    }
+
+    .item a {
+        margin: 5px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width:780px)
+{
+   .dbbe-img , .dbbe-img-2 , .dbbe-img-3 , .dbbe-img-4 , .dbbe-img-5 , .dbbe-img-6 , .dbbe-img-7 , .dbbe-img-8 , .dbbe-img-9 , .dbbe-img-10 , .dbbe-img-11 , .dbbe-img-12 , .dbbe-img-13 , .dbbe-img-14{
+    width: 48px; 
+    height: 48px;
+   }
+   .dbbe {
+    width: 62px;
+    height: 118px;
+}
+}
+@media only screen and (max-width:768px)
+{
+    .sell>button {
+        padding: 5px 20px;
+        position: fixed;
+        left: 40vw;
+        bottom: 4vh;
+        border-radius: 40px;
+        font-size: 15px;
+        font-weight: bold;
+        border-bottom: 6px solid orange;
+        border-top: 6px solid lightskyblue;
+        border-left: 6px solid blue;
+        border-right: 6px solid lightskyblue;
+        background-color: white;
+        display: flex;
+    
+    }
+    .info-about-ads{
+        display: none;
+    }
+    .drop-down{
+        height: 5vh;
+    }
+    #search{
+        height: 5vh;
+    }
+
+    
+    .category {
+        padding-left: 15px;
+        margin-top: 1vh;
+    }
+    .category h3{
+        font-size: 15px;
+    }
+    .olx-app-ad {
+        
+        margin-top: 11vh;
+        
+    }
+    .olx-card {
+            height: 280px;}
+            .info p {
+                font-size: 12px;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 1px;
+                margin-top: 0px;
+                margin-left: 10px;
+            }
+            .olx-card {
+                height: 204px;
+            }
+            .olx-card .img-cars {
+                height: 102px;
+            }
+            .carousel-item {
+                background-color: black;
+                width: 99.352vw;
+                height: 32.17vh;
+            }
+}
+@media only screen and (max-width:660px)
+{
+    .icons-images-small-part-two{
+        margin-top: 25px;
+        display: block;
+    }
+    .icons-images-small{
+        display: none;
+    }
+    .links-olx ul {
+        list-style: none;
+        line-height:12px ;
+    }
+    .links-olx ul li a{
+        text-decoration: none;
+        color: grey;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 10px;
+    }    
+    #heading-link{
+        font-size: 10px;
+    }
+    .links-olx-icon div p{
+        font-size: 10px;
+    
+}
+.links-olx{
+    width: 15.52vw;
+    
+
+}
+.icons-images{
+    display: none;
+}
+.icon-images-second{
+    display: block;
+}
+.boxes {
+    padding: 0px 18px;
+}
+
+
+}
+@media only screen and (max-width:500px)
+{
+    .icons-images-small-part-two {
+        margin-top: 0px;
+        display: block;
+    }
+    
+    .drop-down{
+        display: none;
+    }
+    #search{
+        width: 78vw;
+    }
+    .login {
+       
+        display: none;
+    }
+    .btn{--bs-btn-font-size: 0.7rem;} 
+    .item a {
+        margin: 5px;
+        font-size: 11px;}
+        .navbar-two{
+            padding:5px ;
+        }
+        .dbbe {
+            width: 58px;
+            height: 97px;
+        }
+        .second-nav{
+            padding-left:0vw ;
+        }
+       
+        
+       
+
+}
+@media only screen and (max-width:580px)
+{
+    .btn-outline-dark {
+        display: inline-block;
+        padding: 0 10px;
+        border: 2px solid black;
+        margin-left: 40%;
+        margin-bottom: 2vh;
+    }
+    .carousel-item {
+        background-color: black;
+        width: 99.352vw;
+        height: 23.17vh;
+    }
+
+    .olx-app-ad{
+        display: none;
+    }
+    .list-group{
+        display:block;
+    }
+    .footer-olx{
+        display: none;
+    }
+        .listing-cards{
+            display:flex;
+            justify-content: space-evenly;
+            flex-direction: column;
+            /* flex-wrap: wrap; */
+            
+          
+            
+        }
+        .olx-card{
+            height:105px;
+            width: 94vw;
+            border: 1px solid rgb(221, 217, 217);
+            border-radius: 5px;
+            display:flex;
+            flex-direction:row;
+            margin: 10px;
+            
+            
+            
+        }
+        .olx-card .img-cars{
+            height: 105px;
+            width: 40vw ;
+        }
+        .last-footer-olx{
+            background-color: #002f34;
+            width: 100%;
+            height: 30px;
+            
+        }
+        .last-footer-olx p{
+            float:center;
+            margin-top:9px;
+            color: white;
+            font-weight:100;
+            font-size: 13px;
+            padding-right: 30px;
+        
+        }
+        .topnav{
+            justify-content: space-between;
+        }
+
+}
+@media only screen and (max-width:430px)
+{
+    #search {
+        width: 74vw;
+    }
+    .navbar-two{
+        display: none;
+    }
+    .carousel-item {
+        background-color: black;
+        width: 99.352vw;
+        height: 18.17vh;
+    }
+}
+
+@media only screen and (max-width:830px)
+{
+
+.card-of-seller {
+    width: 310px;}
+}
+.chat-button{
+    width: 269px;
+}
